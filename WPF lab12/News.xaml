@@ -1,0 +1,60 @@
+﻿<Window x:Class="WPF_lab12.News"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_lab12"
+        mc:Ignorable="d"
+        Title="News" Height="450" Width="800">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="10"/>
+            <RowDefinition/>
+            <RowDefinition Height="10"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="White" BorderThickness="3" Grid.Row="1"/>
+        <Border BorderBrush="White" BorderThickness="3" Grid.Row="3"/>
+        <Border BorderBrush="White" BorderThickness="3" Grid.Row="5"/>
+        <TextBlock Text="EquestrianPrint" Style="{StaticResource Cheese}"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="White" BorderThickness="2" Grid.Column="1"/>
+            <TextBlock Style="{StaticResource Cheese}" FontSize="20" Text="News Article one" TextWrapping="Wrap" VerticalAlignment="Center" Margin="15" TextAlignment="Center"/>
+            <TextBlock Grid.Column="1" Style="{StaticResource Cheese}" FontSize="20" Text="Some important information about Filthy Rich being filthy rich and hoarind all of Ponyville's supply of oats and barley. Also economical collapse and zombie apocalypse." TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="2" Style="{StaticResource Cheese}" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Center" TextAlignment="Center" Text="14.06     2099"/>
+
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="White" BorderThickness="2" Grid.Column="1"/>
+            <TextBlock Style="{StaticResource Cheese}" FontSize="20" Text="News Article two" TextWrapping="Wrap" VerticalAlignment="Center" Margin="15" TextAlignment="Center"/>
+            <TextBlock Grid.Column="1" Style="{StaticResource Cheese}" FontSize="20" Text="Some important information about Filthy Rich being filthy rich and hoarind all of Ponyville's supply of oats and barley. Also economical collapse and zombie apocalypse." TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="2" Style="{StaticResource Cheese}" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Center" TextAlignment="Center" Text="14.06     2099"/>
+
+        </Grid>
+        <Grid Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="White" BorderThickness="2" Grid.Column="1"/>
+            <TextBlock Style="{StaticResource Cheese}" FontSize="20" Text="News Article three" TextWrapping="Wrap" VerticalAlignment="Center" Margin="15" TextAlignment="Center"/>
+            <TextBlock Grid.Column="1" Style="{StaticResource Cheese}" FontSize="20" Text="Some important information about Filthy Rich being filthy rich and hoarind all of Ponyville's supply of oats and barley. Also economical collapse and zombie apocalypse." TextWrapping="Wrap" TextAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="2" Style="{StaticResource Cheese}" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Center" TextAlignment="Center" Text="14.06     2099"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
